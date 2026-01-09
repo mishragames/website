@@ -1,88 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #0f172a, #020617);
-    color: #f8fafc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 1.5rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 .container {
-    max-width: 520px;
+  width: 640px;
+  max-width: 90%;
 }
 
 .badge {
-    display: inline-block;
-    padding: 0.4rem 0.8rem;
-    border-radius: 999px;
-    background: #7c3aed;
-    font-size: 0.75rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: #7c3aed;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    opacity: 0.9;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
 }
 
 p {
-    font-size: 1rem;
-    opacity: 0.75;
-    margin-bottom: 2rem;
+  font-size: 1rem;
+  opacity: 0.75;
+  margin-bottom: 2rem;
 }
 
 .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.75rem;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
 }
 
 .links a,
 a.button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 999px;
-    background: #1e293b;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 0.85rem;
-    transition: background 0.2s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  background: #1e293b;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .links a:hover,
 a.button:hover {
-    background: #7c3aed;
-    transform: translateY(-2px);
+  background: #7c3aed;
+  transform: translateY(-2px);
 }
 
 .links img {
-    width: 16px;
-    height: 16px;
-    filter: invert(1);
+  width: 16px;
+  height: 16px;
+  filter: invert(1);
 }
 
 footer {
-    margin-top: 2.5rem;
-    font-size: 0.75rem;
-    opacity: 0.5;
+  margin-top: 2.5rem;
+  font-size: 0.75rem;
+  opacity: 0.5;
 }
