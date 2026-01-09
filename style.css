@@ -17,19 +17,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    letter-spacing: 1px;
-}
-
-p {
-    font-size: 1rem;
-    opacity: 0.85;
-    margin-bottom: 2rem;
+    max-width: 520px;
 }
 
 .badge {
@@ -42,10 +30,21 @@ p {
     margin-bottom: 1rem;
 }
 
-footer {
-    margin-top: 3rem;
-    font-size: 0.8rem;
-    opacity: 0.6;
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 1rem;
+    opacity: 0.75;
+    margin-bottom: 2rem;
 }
 
 .links {
@@ -56,17 +55,24 @@ footer {
     margin-bottom: 2rem;
 }
 
-.links a {
+.links a,
+a.button {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.6rem 1.1rem;
+    padding: 0.6rem 1.2rem;
     border-radius: 999px;
     background: #1e293b;
-    color: #f8fafc;
+    color: #ffffff;
     text-decoration: none;
     font-size: 0.85rem;
     transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.links a:hover,
+a.button:hover {
+    background: #7c3aed;
+    transform: translateY(-2px);
 }
 
 .links img {
@@ -75,12 +81,8 @@ footer {
     filter: invert(1);
 }
 
-.links svg {
-    width: 16px;
-    height: 16px;
-}
-
-.links a:hover {
-    background: #7c3aed;
-    transform: translateY(-2px);
+footer {
+    margin-top: 2.5rem;
+    font-size: 0.75rem;
+    opacity: 0.5;
 }
